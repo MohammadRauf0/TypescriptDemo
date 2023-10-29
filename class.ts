@@ -40,6 +40,9 @@ class Employee implements Login{
   }
 }
 
+/**
+ * Creates a new Employee instance with the specified ID, name, and address.
+ */
 let emplayee1 = new Employee(1, "Mohammad", {
   street: "ABC",
   city: "Mazar",
